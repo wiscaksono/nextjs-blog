@@ -8,7 +8,7 @@ const HomePage = () => {
   ));
 
   return (
-    <div className="grid grid-cols-1 md:grid-col-2 gap-4">{postPreviews}</div>
+    <main className="grid grid-cols-1 md:grid-col-2 gap-4">{postPreviews}</main>
   );
 };
 
