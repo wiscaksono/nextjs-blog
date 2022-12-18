@@ -1,4 +1,5 @@
-import { PostMetadata } from "./PostMetadata";
+import React from "react";
+import { PostMetadata } from "../types/PostMetadata";
 
 const PostPreview = (props: PostMetadata) => {
   return (

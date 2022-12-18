@@ -4,7 +4,7 @@ subtitle: "Some methods"
 date: "2022-12-19"
 ---
 
-<center>This article is wirttend by ChatGPT</center>
+<center>This article is wirtten by ChatGPT</center>
 
 # Estimating the Health of a Lithium-Ion Battery
 

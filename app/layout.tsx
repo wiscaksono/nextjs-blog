@@ -1,3 +1,4 @@
+import React from "react";
 import "../styles/globals.css";
 
 export default function RootLayout({
@@ -11,7 +12,7 @@ export default function RootLayout({
         <img src="/logo.png" className="w-[40px] h-[40px] mx-auto" />
         <a href="/">
           <h1 className="text-2xl text-white font-bold mt-4">
-            Wiscaksono's Blog
+            Wiscaksono&apos;s Blog
           </h1>
         </a>
         <p className="text-slate-300">🤘 Welcome to my tech blog. 💻</p>

@@ -1,4 +1,5 @@
-import getPostMetadata from "../components/getPostMetadata";
+import React from "react";
+import getPostMetadata from "../utils/getPostMetadata";
 import PostPreview from "../components/PostPreview";
 
 const HomePage = () => {
