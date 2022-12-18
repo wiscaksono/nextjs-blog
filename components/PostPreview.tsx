@@ -8,7 +8,9 @@ const PostPreview = (props: PostMetadata) => {
     >
       <p className="text-sm text-slate-400">{props.date}</p>
       <a href={`/posts/${props.slug}`}>
-        <h2 className="text-violet-600 hover:underline mb-4">{props.slug}</h2>
+        <h2 className="text-violet-600 hover:underline mb-4 capitalize">
+          {props.slug.replace(/-/g, " ")}
+        </h2>
       </a>
       <p className="text-slate-700">{props.subtitle}</p>
     </div>
