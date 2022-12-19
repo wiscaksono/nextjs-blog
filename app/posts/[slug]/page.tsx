@@ -23,8 +23,8 @@ const PostPage = (props: any) => {
 
   return (
     <>
-      <div className="text-center">
-        <h1 className="text-2xl text-violet-600">{post.data.title}</h1>
+      <div className="pb-5 mb-5 border-b border-primary/10">
+        <h1 className="text-4xl font-bold text-primary">{post.data.title}</h1>
         <p className="text-slate-400 mt-2">{post.data.date}</p>
       </div>
 
