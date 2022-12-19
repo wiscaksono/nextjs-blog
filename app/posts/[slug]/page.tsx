@@ -23,14 +23,14 @@ const PostPage = (props: any) => {
 
   return (
     <>
-      <div className="my-12 text-center">
+      <div className="text-center">
         <h1 className="text-2xl text-violet-600">{post.data.title}</h1>
         <p className="text-slate-400 mt-2">{post.data.date}</p>
       </div>
 
       <Markdown
         options={{ wrapper: "article" }}
-        className="prose prose-img:mx-auto mx-auto"
+        className="prose prose-img:mx-auto mx-auto max-w-none"
       >
         {post.content}
       </Markdown>
